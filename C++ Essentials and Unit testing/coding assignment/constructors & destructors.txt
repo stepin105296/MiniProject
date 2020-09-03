@@ -1,0 +1,7 @@
+Implement Box as a class
+Impement  Point as a class
+Implement Banking Account as a class
+Implement Mobile Customer as a class
+Implement Color as user defined type
+Implement IP Address as ADT/User defined type
+Implement Image as a class

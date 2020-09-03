@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1599129753 source:c:\users\asus\desktop\miniproject\embeddedsystems\pwm\fuse.c
+	<avr/io.h>
+
+1599132483 source:c:\users\asus\desktop\miniproject\embeddedsystems\pwm\main.c
+	<avr/io.h>
+	<util/delay.h>
+

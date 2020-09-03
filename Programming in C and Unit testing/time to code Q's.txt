@@ -1,0 +1,3 @@
+5. Time to code: Array sorting
+
+Write a function which takes pointer to an array as argument and sorts the array in ascending order . Pass dynamically allocated and filled array to this function.

@@ -1,0 +1,30 @@
+<circuit noLinAcc="5" animate="0" type="simulide_0.1" noLinStep="10" speed="1000000" reactStep="50">
+ 
+Ground-6: 
+<item labelx="-16" labely="-24" rotation="0" objectName="Ground-6" y="-60" valLabRot="0" vflip="1" labelrot="0" valLabely="0" valLabelx="0" hflip="1" id="Ground-6" itemtype="Ground" Show_id="false" x="-100"/>
+ 
+Resistor-3: 
+<item Show_id="false" rotation="0" valLabely="6" itemtype="Resistor" vflip="1" y="-92" labelrot="0" Show_res="true" valLabelx="-16" hflip="1" Resistance="100" objectName="Resistor-3" labelx="-12" x="12" valLabRot="0" id="Resistor-3" labely="-24" Unit=" O"/>
+ 
+Led-2: 
+<item Show_id="false" rotation="-180" valLabely="0" itemtype="Led" vflip="1" y="-92" labelrot="0" Grounded="false" Threshold="1.3999999999999999" valLabelx="0" hflip="1" Resistance="0.59999999999999998" objectName="Led-2" labelx="-16" x="-44" MaxCurrent="0.030000000000000027" valLabRot="0" Color="4" id="Led-2" labely="-24"/>
+ 
+atmega328-1: 
+<item Show_id="true" Mhz="16" rotation="0" valLabely="0" itemtype="AVR" vflip="1" y="-188" labelrot="0" valLabelx="0" hflip="1" objectName="atmega328-1" labelx="0" Ser_Monitor="false" x="76" valLabRot="0" Program="../../../Desktop/MiniProject/EmbeddedSystems/Timer/bin/Debug/Timer.hex" id="atmega328-1" labely="-20" Ser_Port="false"/>
+ 
+Connector-7: 
+<item Show_id="false" rotation="0" valLabely="0" itemtype="Connector" vflip="1" y="-76" enodeid="enode-7" labelrot="0" pointList="-100,-76,-100,-92,-60,-92" valLabelx="0" hflip="1" endpinid="Led-2-rPin" objectName="Connector-7" labelx="-16" x="-100" startpinid="Ground-6-Gnd" valLabRot="0" id="Connector-7" labely="-24"/>
+ 
+Connector-8: 
+<item Show_id="false" rotation="0" valLabely="0" itemtype="Connector" vflip="1" y="-92" enodeid="enode-8" labelrot="0" pointList="-28,-92,-4,-92" valLabelx="0" hflip="1" endpinid="Resistor-3-lPin" objectName="Connector-8" labelx="-16" x="-28" startpinid="Led-2-lPin" valLabRot="0" id="Connector-8" labely="-24"/>
+ 
+Connector-9: 
+<item Show_id="false" rotation="0" valLabely="0" itemtype="Connector" vflip="1" y="-92" enodeid="enode-9" labelrot="0" pointList="28,-92,68,-92" valLabelx="0" hflip="1" endpinid="atmega328-1-PD6" objectName="Connector-9" labelx="-16" x="28" startpinid="Resistor-3-rPin" valLabRot="0" id="Connector-9" labely="-24"/>
+ 
+PlotterWidget: 
+<item layoutDirection="0" fullScreen="false" updatesEnabled="true" whatsThis="" x="0" autoFillBackground="false" itemtype="Plotter" frameSize="" sizeIncrement="" toolTipDuration="-1" statusTip="" enabled="true" cursor="" sizePolicy="" maximumHeight="200" pos="" windowModified="false" accessibleDescription="" mouseTracking="false" windowOpacity="1" maximumSize="" y="0" windowModality="0" maximized="false" sizeHint="" childrenRegion="" focus="false" windowFilePath="" minimumSizeHint="" objectName="PlotterWidget" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" visible="false" minimumSize="" height="200" baseSize="" width="200" size="" minimumWidth="200" normalGeometry="" windowIcon="" childrenRect="" inputMethodHints="0" maximumWidth="1000" modal="false" frameGeometry="" minimumHeight="200" locale="" contextMenuPolicy="1" windowIconText="" rect="" palette="" isActiveWindow="true" acceptDrops="false" accessibleName="" MaxVolt="500" geometry="" styleSheet="" focusPolicy="0" minimized="false" windowTitle="" toolTip="" MinVolt="-500"/>
+ 
+SerialPortWidget: 
+<item layoutDirection="0" fullScreen="false" updatesEnabled="true" whatsThis="" x="0" autoFillBackground="false" itemtype="SerialPort" frameSize="" sizeIncrement="" toolTipDuration="-1" statusTip="" enabled="true" SettingsProp=",0,3,0,0,0" cursor="" sizePolicy="" maximumHeight="170" pos="" windowModified="false" accessibleDescription="" mouseTracking="false" windowOpacity="1" maximumSize="" y="0" windowModality="0" maximized="false" sizeHint="" childrenRegion="" focus="false" windowFilePath="" minimumSizeHint="" objectName="SerialPortWidget" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" visible="false" minimumSize="" height="141" baseSize="" width="313" size="" minimumWidth="0" normalGeometry="" windowIcon="" childrenRect="" inputMethodHints="0" maximumWidth="450" modal="false" frameGeometry="" minimumHeight="0" locale="" contextMenuPolicy="1" windowIconText="" rect="" palette="" isActiveWindow="true" acceptDrops="false" accessibleName="" geometry="" styleSheet="" focusPolicy="0" minimized="false" windowTitle="Settings" toolTip=""/>
+ 
+</circuit>

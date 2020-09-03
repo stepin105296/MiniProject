@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1599121307 source:c:\users\asus\desktop\miniproject\embeddedsystems\timer\fuse.c
+	<avr/io.h>
+
+1599121892 source:c:\users\asus\desktop\miniproject\embeddedsystems\timer\main.c
+	<avr/io.h>
+	<avr/interrupt.h>
+
