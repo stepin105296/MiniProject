@@ -1,0 +1,30 @@
+<circuit animate="0" noLinStep="10" type="simulide_0.1" noLinAcc="5" speed="1000000" reactStep="50">
+ 
+Ground-6: 
+<item labely="-24" id="Ground-6" rotation="0" itemtype="Ground" valLabely="0" vflip="1" labelrot="0" objectName="Ground-6" x="-420" y="-116" valLabelx="0" hflip="1" valLabRot="0" labelx="-16" Show_id="false"/>
+ 
+Resistor-3: 
+<item itemtype="Resistor" Show_id="false" objectName="Resistor-3" y="-148" rotation="0" hflip="1" x="-268" valLabely="6" valLabelx="-16" labelx="-12" id="Resistor-3" labely="-24" labelrot="0" Unit=" O" vflip="1" Show_res="true" valLabRot="0" Resistance="100"/>
+ 
+Led-2: 
+<item itemtype="Led" Threshold="2.3999999999999999" Grounded="false" Show_id="false" MaxCurrent="0.029999999999999999" objectName="Led-2" y="-148" rotation="0" hflip="-1" x="-332" valLabely="0" valLabelx="0" labelx="-16" id="Led-2" labely="-24" labelrot="0" Color="0" vflip="1" valLabRot="0" Resistance="0.59999999999999998"/>
+ 
+atmega328-1: 
+<item itemtype="AVR" Show_id="true" objectName="atmega328-1" y="-260" rotation="0" hflip="1" x="-196" valLabely="0" valLabelx="0" labelx="0" id="atmega328-1" labely="-20" labelrot="0" Program="../../../Desktop/MiniProject/EmbeddedSystems/UART/bin/Debug/UART.hex" Ser_Monitor="true" vflip="1" Mhz="16" valLabRot="0" Ser_Port="false"/>
+ 
+Connector-4: 
+<item itemtype="Connector" Show_id="false" enodeid="enode-4" objectName="Connector-4" y="-148" rotation="0" hflip="1" endpinid="Resistor-3-lPin" x="-316" valLabely="0" valLabelx="0" labelx="-16" id="Connector-4" labely="-24" labelrot="0" vflip="1" pointList="-316,-148,-284,-148" startpinid="Led-2-lPin" valLabRot="0"/>
+ 
+Connector-5: 
+<item itemtype="Connector" Show_id="false" enodeid="enode-5" objectName="Connector-5" y="-148" rotation="0" hflip="1" endpinid="atmega328-1-PB0" x="-252" valLabely="0" valLabelx="0" labelx="-16" id="Connector-5" labely="-24" labelrot="0" vflip="1" pointList="-252,-148,-204,-148" startpinid="Resistor-3-rPin" valLabRot="0"/>
+ 
+Connector-7: 
+<item itemtype="Connector" Show_id="false" enodeid="enode-7" objectName="Connector-7" y="-132" rotation="0" hflip="1" endpinid="Led-2-rPin" x="-420" valLabely="0" valLabelx="0" labelx="-16" id="Connector-7" labely="-24" labelrot="0" vflip="1" pointList="-420,-132,-420,-148,-348,-148" startpinid="Ground-6-Gnd" valLabRot="0"/>
+ 
+PlotterWidget: 
+<item windowIcon="" sizeIncrement="" palette="" windowFilePath="" focusPolicy="0" windowModality="0" autoFillBackground="false" styleSheet="" windowOpacity="1" MaxVolt="500" visible="false" normalGeometry="" childrenRect="" itemtype="Plotter" height="200" frameGeometry="" locale="" width="200" contextMenuPolicy="1" minimumSizeHint="" toolTip="" minimumSize="" accessibleDescription="" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" rect="" toolTipDuration="-1" mouseTracking="false" accessibleName="" cursor="" baseSize="" updatesEnabled="true" modal="false" maximized="false" enabled="true" windowModified="false" geometry="" minimized="false" inputMethodHints="0" fullScreen="false" childrenRegion="" statusTip="" frameSize="" layoutDirection="0" y="0" maximumWidth="1000" minimumHeight="200" focus="false" maximumSize="" whatsThis="" sizePolicy="" size="" windowTitle="" objectName="PlotterWidget" windowIconText="" maximumHeight="200" acceptDrops="false" MinVolt="-500" sizeHint="" x="0" pos="" minimumWidth="200" isActiveWindow="true"/>
+ 
+SerialPortWidget: 
+<item windowIcon="" sizeIncrement="" palette="" windowFilePath="" focusPolicy="0" windowModality="0" autoFillBackground="false" styleSheet="" windowOpacity="1" visible="false" normalGeometry="" childrenRect="" itemtype="SerialPort" height="141" frameGeometry="" locale="" width="313" contextMenuPolicy="1" minimumSizeHint="" toolTip="" minimumSize="" accessibleDescription="" SettingsProp=",0,3,0,0,0" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" rect="" toolTipDuration="-1" mouseTracking="false" accessibleName="" cursor="" baseSize="" updatesEnabled="true" modal="false" maximized="false" enabled="true" windowModified="false" geometry="" minimized="false" inputMethodHints="0" fullScreen="false" childrenRegion="" statusTip="" frameSize="" layoutDirection="0" y="0" maximumWidth="450" minimumHeight="0" focus="false" maximumSize="" whatsThis="" sizePolicy="" size="" windowTitle="Settings" objectName="SerialPortWidget" windowIconText="" maximumHeight="170" acceptDrops="false" sizeHint="" x="0" pos="" minimumWidth="0" isActiveWindow="true"/>
+ 
+</circuit>

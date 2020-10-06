@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1599205012 source:c:\users\asus\desktop\miniproject\embeddedsystems\uart\fuse.c
+	<avr/io.h>
+
+1599208754 source:c:\users\asus\desktop\miniproject\embeddedsystems\uart\main.c
+	<avr/io.h>
+	<util/delay.h>
+	"uart.h"
+
+1599208749 c:\users\asus\desktop\miniproject\embeddedsystems\uart\uart.h
+
+1599208769 source:c:\users\asus\desktop\miniproject\embeddedsystems\uart\uart.c
+	<avr/io.h>
+	<util/delay.h>
+
